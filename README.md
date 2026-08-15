@@ -1,6 +1,6 @@
 local ui_options = {
-	main_color = Color3.fromRGB(208, 208, 208),
-	min_size = Vector2.new(400, 500),
+	main_color = Color3.fromRGB(41, 74, 122),
+	min_size = Vector2.new(400, 300),
 	toggle_key = Enum.KeyCode.RightShift,
 	can_resize = true,
 }
@@ -113,10 +113,8 @@ Window.ClipsDescendants = true
 Window.Position = UDim2.new(0, 20, 0, 20)
 Window.Selectable = true
 Window.Size = UDim2.new(0, 200, 0, 200)
-Window.Image = "rbxassetid://107812068245924"
+Window.Image = "rbxassetid://2851926732"
 Window.ImageColor3 = Color3.new(0.0823529, 0.0862745, 0.0901961)
-Window.ImageTransparency = 0.4
-Window.BackgroundTransparency = 0.4
 Window.ScaleType = Enum.ScaleType.Slice
 Window.SliceCenter = Rect.new(12, 12, 12, 12)
 
@@ -144,7 +142,7 @@ Toggle.Position = UDim2.new(0, 5, 0, -2)
 Toggle.Rotation = 90
 Toggle.Size = UDim2.new(0, 20, 0, 20)
 Toggle.ZIndex = 2
-Toggle.Image = "https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=121272094456732"
+Toggle.Image = "https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=87808399445964"
 
 Base.Name = "Base"
 Base.Parent = Bar
@@ -954,10 +952,6 @@ function library:AddWindow(title, options)
 	local Window = Prefabs:FindFirstChild("Window"):Clone()
 	Window.Parent = Windows
 	Window:FindFirstChild("Title").Text = title
-   local corner = Instance.new("UICorner")
-  corner.CornerRadius = UDim.new(0, 12)  -- Puedes cambiar 12 por el valor que quieras
-  corner.Parent = Window
-
 	Window.Size = UDim2.new(0, options.min_size.X, 0, options.min_size.Y)
 	Window.ZIndex = Window.ZIndex + (windows * 10)
 
@@ -2020,10 +2014,6 @@ function library:AddWindow(title, options)
 		end
 	end
 
-	return window_data, Window
-end
-
-return library
 	return window_data, Window
 end
 
