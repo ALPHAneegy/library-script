@@ -112,11 +112,12 @@ Window.BackgroundTransparency = 0.01
 Window.ClipsDescendants = true
 Window.Position = UDim2.new(0, 20, 0, 20)
 Window.Selectable = true
-Window.Size = UDim2.new(0, 200, 0, 200)
+Window.Size = UDim2.new(0, 500, 0, 500)
 Window.Image = "rbxassetid://72821353173406"
 Window.ImageColor3 = Color3.new(1.2, 1.2, 1.2)
 Window.ImageTransparency = 0.05
 Window.BackgroundTransparency = 0.01
+Window.ScaleType = Enum.ScaleType.Slice
 Window.SliceCenter = Rect.new(10, 10, 10, 10)
 
 Resizer.Name = "Resizer"
