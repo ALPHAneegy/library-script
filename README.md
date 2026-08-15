@@ -113,8 +113,8 @@ Window.ClipsDescendants = true
 Window.Position = UDim2.new(0, 20, 0, 20)
 Window.Selectable = true
 Window.Size = UDim2.new(0, 200, 0, 200)
-Window.Image = "rbxassetid://139990877366086"
-Window.ImageColor3 = Color3.new(2, 2, 2)
+Window.Image = "rbxassetid://18293705539"
+Window.ImageColor3 = Color3.new(1.2, 1.2, 1.2)
 Window.ScaleType = Enum.ScaleType.Slice
 Window.SliceCenter = Rect.new(12, 12, 12, 12)
 
