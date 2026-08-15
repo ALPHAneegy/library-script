@@ -1,6 +1,6 @@
 local ui_options = {
 	main_color = Color3.fromRGB(41, 74, 122),
-	min_size = Vector2.new(400, 500),
+	min_size = Vector2.new(550, 550),
 	toggle_key = Enum.KeyCode.RightShift,
 	can_resize = true,
 }
@@ -108,11 +108,11 @@ Window.Name = "Window"
 Window.Parent = Prefabs
 Window.Active = true
 Window.BackgroundColor3 = Color3.new(0, 0, 0)
-Window.BackgroundTransparency = 0
+Window.BackgroundTransparency = 0.01
 Window.ClipsDescendants = true
 Window.Position = UDim2.new(0, 20, 0, 20)
 Window.Selectable = true
-Window.Size = UDim2.new(0, 300, 0, 300)
+Window.Size = UDim2.new(0, 200, 0, 200)
 Window.Image = "rbxassetid://18293705539"
 Window.ImageColor3 = Color3.new(1.2, 1.2, 1.2)
 Window.ScaleType = Enum.ScaleType.Slice
