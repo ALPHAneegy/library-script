@@ -113,10 +113,10 @@ Window.ClipsDescendants = true
 Window.Position = UDim2.new(0, 20, 0, 20)
 Window.Selectable = true
 Window.Size = UDim2.new(0, 200, 0, 200)
-Window.Image = "rbxassetid://18821688889"
+Window.Image = "rbxassetid://18293705539"
 Window.ImageColor3 = Color3.new(1.2, 1.2, 1.2)
 Window.ScaleType = Enum.ScaleType.Slice
-Window.SliceCenter = Rect.new(12, 12, 12, 12)
+Window.SliceCenter = Rect.new(10, 10, 10, 10)
 
 Resizer.Name = "Resizer"
 Resizer.Parent = Window
