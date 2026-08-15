@@ -282,6 +282,10 @@ Indicator.ImageColor3 = Color3.new(0.254902, 0.262745, 0.278431)
 Indicator.ScaleType = Enum.ScaleType.Slice
 Indicator.SliceCenter = Rect.new(4, 4, 4, 4)
 
+local corner = Instance.new("UICorner")
+corner.CornerRadius = UDim.new(0, 10)
+corner.Parent = Window
+
 Value.Name = "Value"
 Value.Parent = Slider
 Value.BackgroundColor3 = Color3.new(1, 1, 1)
