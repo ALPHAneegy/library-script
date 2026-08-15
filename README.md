@@ -88,7 +88,7 @@ imgui.Parent = game:GetService("CoreGui") or gethui()
 
 Prefabs.Name = "Prefabs"
 Prefabs.Parent = imgui
-Prefabs.BackgroundColor3 = Color3.new(1, 1, 1)
+Prefabs.BackgroundColor3 = Color3.new(0, 0, 1)
 Prefabs.Size = UDim2.new(0, 100, 0, 100)
 Prefabs.Visible = false
 
