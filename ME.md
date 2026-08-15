@@ -117,8 +117,7 @@ Window.Image = "rbxassetid://72821353173406"
 Window.ImageColor3 = Color3.new(1.2, 1.2, 1.2)
 Window.ImageTransparency = 0.05
 Window.BackgroundTransparency = 0.01
-Window.ScaleType = Enum.ScaleType.Slice
-Window.SliceCenter = Rect.new(10, 10, 10, 10)
+Window.ScaleType = Enum.ScaleType.Stretch
 
 Resizer.Name = "Resizer"
 Resizer.Parent = Window
