@@ -1,6 +1,6 @@
 local ui_options = {
-	main_color = Color3.fromRGB(41, 74, 122),
-	min_size = Vector2.new(400, 300),
+	main_color = Color3.fromRGB(208, 208, 208),
+	min_size = Vector2.new(400, 500),
 	toggle_key = Enum.KeyCode.RightShift,
 	can_resize = true,
 }
@@ -113,7 +113,7 @@ Window.ClipsDescendants = true
 Window.Position = UDim2.new(0, 20, 0, 20)
 Window.Selectable = true
 Window.Size = UDim2.new(0, 200, 0, 200)
-Window.Image = "rbxassetid://2851926732"
+Window.Image = "rbxassetid://107812068245924"
 Window.ImageColor3 = Color3.new(0.0823529, 0.0862745, 0.0901961)
 Window.ImageTransparency = 0.4
 Window.BackgroundTransparency = 0.4
@@ -144,7 +144,7 @@ Toggle.Position = UDim2.new(0, 5, 0, -2)
 Toggle.Rotation = 90
 Toggle.Size = UDim2.new(0, 20, 0, 20)
 Toggle.ZIndex = 2
-Toggle.Image = "https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=79182952572284"
+Toggle.Image = "https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=121272094456732"
 
 Base.Name = "Base"
 Base.Parent = Bar
