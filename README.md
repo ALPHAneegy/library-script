@@ -95,12 +95,12 @@ Prefabs.Visible = false
 
 Label.Name = "Label"
 Label.Parent = Prefabs
-Label.BackgroundColor3 = Color3.new(1, 1, 1)
+Label.BackgroundColor3 = Color3.new(225, 1, 1)
 Label.BackgroundTransparency = 1
 Label.Size = UDim2.new(0, 200, 0, 20)
 Label.Font = Enum.Font.Garamond
 Label.Text = "Hello, world 123"
-Label.TextColor3 = Color3.new(220, 32, 32)
+Label.TextColor3 = Color3.new(1, 1, 1)
 Label.TextSize = 17
 Label.TextXAlignment = Enum.TextXAlignment.Left
 
