@@ -116,7 +116,7 @@ Window.Size = UDim2.new(0, 200, 0, 200)
 Window.Image = "rbxassetid://108191233213975"
 Window.ImageColor3 = Color3.new(0.0823529, 0.0862745, 0.0901961)
 Window.ScaleType = Enum.ScaleType.Slice
-Window.SliceCenter = Rect.new(12, 12, 12, 12)
+Window.SliceCenter = Rect.new(6, 6, 6, 6)
 
 Resizer.Name = "Resizer"
 Resizer.Parent = Window
