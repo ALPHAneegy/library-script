@@ -118,6 +118,7 @@ Window.ImageColor3 = Color3.new(1.2, 1.2, 1.2)
 Window.ImageTransparency = 0.05
 Window.BackgroundTransparency = 0.01
 Window.ScaleType = Enum.ScaleType.Stretch
+Window.StretchCenter = Rect.new(12, 12, 12, 12)
 
 Resizer.Name = "Resizer"
 Resizer.Parent = Window
