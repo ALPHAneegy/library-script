@@ -96,13 +96,14 @@ Prefabs.Visible = false
 Label.Name = "Label"
 Label.Parent = Prefabs
 Label.BackgroundColor3 = Color3.new(1, 1, 1)
-Label.BackgroundTransparency = 1
+Label.BackgroundTransparency = 0.2
 Label.Size = UDim2.new(0, 200, 0, 20)
 Label.Font = Enum.Font.Garamond
 Label.Text = "Hello, world 123"
-Label.TextColor3 = Color3.new(1, 1, 1)
+Label.TextColor3 = Color3.new(255, 255, 255)
 Label.TextSize = 17
 Label.TextXAlignment = Enum.TextXAlignment.Left
+
 
 Window.Name = "Window"
 Window.Parent = Prefabs
@@ -194,8 +195,10 @@ TabSelection.Size = UDim2.new(1, -30, 0, 25)
 TabSelection.Visible = false
 TabSelection.Image = "rbxassetid://2851929490"
 TabSelection.ImageColor3 = Color3.new(0.145098, 0.14902, 0.156863)
+TabSelection.ImageTransparency = 1
 TabSelection.ScaleType = Enum.ScaleType.Slice
 TabSelection.SliceCenter = Rect.new(4, 4, 4, 4)
+
 
 TabButtons.Name = "TabButtons"
 TabButtons.Parent = TabSelection
@@ -214,6 +217,7 @@ Frame.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
 Frame.BorderSizePixel = 0
 Frame.Position = UDim2.new(0, 0, 1, 0)
 Frame.Size = UDim2.new(1, 0, 0, 2)
+Frame.Visible = false
 
 Tab.Name = "Tab"
 Tab.Parent = Prefabs
