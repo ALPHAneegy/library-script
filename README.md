@@ -115,13 +115,6 @@ Window.Selectable = true
 Window.Size = UDim2.new(0, 200, 0, 200)
 Window.Image = "rbxassetid://5550951482"
 Window.ImageColor3 = Color3.new(1.2, 1.2, 1.2)
-Window.ScaleType = Enum.ScaleType.Slice
-Window.SliceCenter = Rect.new(10, 10, 10, 10)
-Window.ClipsDescendants = true
-
-local corner = Instance.new("UICorner")
-corner.CornerRadius = UDim.new(0, 10)
-corner.Parent = Window
 
 Resizer.Name = "Resizer"
 Resizer.Parent = Window
