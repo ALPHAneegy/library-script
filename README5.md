@@ -100,7 +100,7 @@ Label.BackgroundTransparency = 1
 Label.Size = UDim2.new(0, 200, 0, 20)
 Label.Font = Enum.Font.Garamond
 Label.Text = "Hello, world 123"
-Label.TextColor3 = Color3.new(1, 1, 1)
+Label.TextColor3 = Color3.new(0, 0, 0)
 Label.TextSize = 17
 Label.TextXAlignment = Enum.TextXAlignment.Left
 
