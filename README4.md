@@ -116,7 +116,7 @@ Window.Size = UDim2.new(0, 0, 490, 490)
 Window.Image = "rbxassetid://10204699284"
 Window.ImageColor3 = Color3.new(1.2, 1.2, 1.2)
 Window.ImageTransparency = 0.05
-Window.BackgroundTransparency = 0.01
+Window.BackgroundTransparency = 1
 
 Resizer.Name = "Resizer"
 Resizer.Parent = Window
