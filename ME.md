@@ -118,7 +118,7 @@ Window.ImageColor3 = Color3.new(1.2, 1.2, 1.2)
 Window.ImageTransparency = 0.05
 Window.BackgroundTransparency = 0.01
 Window.ScaleType = Enum.ScaleType.Slice 
-Window.SliceCenter = Rect.new(10, 10, 490, 490)
+Window.SliceCenter = Rect.new(10, 10, -490, -490)
 
 Resizer.Name = "Resizer"
 Resizer.Parent = Window
